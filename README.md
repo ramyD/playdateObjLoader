@@ -10,10 +10,10 @@ An example implementation:
 ```
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include "pd_api.h"
 #include "scene.h"
 #include "3dmath.h"
+#include "objLoader.h"
 
 #ifdef _WINDLL
 __declspec(dllexport)
