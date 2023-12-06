@@ -208,7 +208,7 @@ ObjModel* LoadObj(PlaydateAPI* playdate, const char* objPath) {
 
 				// Get Faces
 				do {
-					// find next entry we want, a vertex in this case
+					// find next entry we want, a face in this case
 					nextEntry = strstr(objFile + cursor, "f ");
 					if (nextEntry != NULL) {
 						long long ePosition = nextEntry - (objFile + cursor);
